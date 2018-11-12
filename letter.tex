@@ -1,33 +1,6 @@
 \documentclass{article}
 \usepackage{a4wide}
-\usepackage{xcolor}
-\usepackage{ifmtarg}
-
-\makeatletter
-
-\newcommand{\isempty}[3]{%
-\@ifmtarg{#1}{#2}{#3}}
-
-\newcounter{revcount}
-
-\newcounter{commentcount}[revcount]
-
-\newcommand{\curreviewer}{Reviewer \arabic{revcount}}
-
-\newcommand{\reviewer}[2]{ \stepcounter{revcount} 
-	\vspace{0.5cm}\noindent\Large\textbf{\curreviewer}\normalsize\vspace{0.3cm} \\ 
-	\noindent \itshape{#1} \normalfont \vspace{0.2cm} \\ 
-	\noindent      
-	\isempty{#2}{\color{red}{We thank \curreviewer...}}{\color{red} {#2}}
-	\color{black}\normalfont}
-
-
-\newcommand{\comment}[2]{
-	\stepcounter{commentcount}
-	\vspace{0.3cm}\noindent\textbf{Comment \arabic{revcount}.\arabic{commentcount}} \vspace{0.1cm} \\  
-	\itshape{#1} \vspace{0.2cm} \normalfont  \\
-	\isempty{#2}{\color{red}{A decent answer...}}{\color{red} {#2}}
-	\color{black}\normalfont}
+\usepackage{responseletter}
 
 \begin{document}
 	
