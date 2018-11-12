@@ -1,6 +1,6 @@
 ## response-letter-template
 
-This template adds a bunch of commands to help the writing of a response letter for a journal.
+This template uses a bunch of new commands to help the writing of a response letter to journal reviews.
 
 <p align="center">
   <img src="template.png" />
