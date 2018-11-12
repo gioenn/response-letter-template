@@ -3,7 +3,7 @@
 This template adds a bunch of commands to help the writing of a response letter for a journal.
 
 <p align="center">
-  <img src="letter.png" />
+  <img src="template.png" />
 </p>
 
 
