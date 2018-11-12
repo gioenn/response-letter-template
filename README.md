@@ -9,7 +9,13 @@ This template adds a bunch of commands to help the writing of a response letter 
 
 ### Usage
 
-To use the new commands put the `responseletter.sty` file into the root folder of a latex project and in the preamble of the main file add `\usepackage{responseletter}`.
+To use the new commands:
+
+1. Put the `responseletter.sty` file into the root folder of a latex project.
+2. Add `\usepackage{responseletter}` in the preamble of the main file of the project.
+
+
+### Commands
 
 * **Command** `\reviewer{review prologue}{thanks}`
 
