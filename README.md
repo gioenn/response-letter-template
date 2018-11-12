@@ -1,11 +1,11 @@
 ## responseletter.sty
 
-This LaTeX package adds a bunch of new commands to help the writing of a response letter to journal reviews.
 
 <p align="center">
-  <img src="template.png" />
+  <img src="template.png" width=600px/>
 </p>
 
+This LaTeX package adds a bunch of new commands to help the writing of a response letter to journal reviews.
 
 ### Usage
 
