@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage{a4wide}
+\usepackage{xcolor}
+\usepackage{ifmtarg}
+
+\makeatletter
+
+\newcommand{\isempty}[3]{%
+\@ifmtarg{#1}{#2}{#3}}
+
+\newcounter{revcount}
+
+\newcounter{commentcount}[revcount]
+
+\newcommand{\curreviewer}{Reviewer \arabic{revcount}}
+
+\newcommand{\reviewer}[2]{ \stepcounter{revcount} 
+	\vspace{0.5cm}\noindent\Large\textbf{\curreviewer}\normalsize\vspace{0.3cm} \\ 
+	\noindent \itshape{#1} \normalfont \vspace{0.2cm} \\ 
+	\noindent      
+	\isempty{#2}{\color{red}{We thank \curreviewer...}}{\color{red} {#2}}
+	\color{black}\normalfont}
+
+
+\newcommand{\comment}[2]{
+	\stepcounter{commentcount}
+	\vspace{0.3cm}\noindent\textbf{Comment \arabic{revcount}.\arabic{commentcount}} \vspace{0.1cm} \\  
+	\itshape{#1} \vspace{0.2cm} \normalfont  \\
+	\isempty{#2}{\color{red}{A decent answer...}}{\color{red} {#2}}
+	\color{black}\normalfont}
+
+\begin{document}
+	
+	\title{Response to the Comments of the Reviewers}
+	\author{Author 1, Author 2 and Author 3}
+	
+	\maketitle
+	
+	\noindent The comments of the reviewers have been very useful....
+	
+	\reviewer{This paper presents a theory and practical system... % Review prologue 
+	}{
+		% Thank the reviewer for her/his feedbacks 
+	} 
+	
+	% Tackle each comment with an answer
+	
+	\comment{The biggest concern I have is... 
+		% Reviewer comment
+	}{
+		% Your answer
+	}
+	
+	\comment{Another concern that I have is... 
+		% Reviewer comment
+	}{
+		% Your answer
+	}
+	
+	\reviewer{The authors present an extension to... % Review prologue 
+	}{
+		% Thank the reviewer for her/his feedbacks 
+	} 
+	
+	% Tackle each comment with an answer
+	
+	\comment{The biggest concern I have is... 
+		% Reviewer comment
+	}{
+		% Your answer
+	}
+	
+	\comment{Another concern that I have is... 
+		% Reviewer comment
+	}{
+		% Your answer
+	}
+	
+	
+\end{document}
