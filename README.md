@@ -17,7 +17,7 @@ To use the new commands:
 
 ### Commands
 
-* **Command** `\reviewer{review prologue}{thanks}`
+* `\reviewer{review prologue}{thanks}`
 
 Usually the review of a reviewer starts with a prologue that summarizes the work and its main strenghts and drawbacks.
 After this part it is usually good practice to thank the reviewer for her/his feedbacks.
@@ -25,12 +25,12 @@ After this part it is usually good practice to thank the reviewer for her/his fe
 This command creates a title 'Reviewer \<num\>' using the \Large font size and prints *review prologue* in italic and *thanks* in red color.
 If thanks is empty it prints 'We thank Reviewer <num>...' as placeholder.
 
-* **Command** `\comment{the comment}{answer}`
+* `\comment{the comment}{answer}`
 
 For each comment provided by a reviewer is good norm to provide a proper answer.
 This command prints a title 'Comment \<Reviewer num\>.\<Comment num\>' in bold, it then prints the comment in italic and the answer in red color.
 
-* **Command** `\curreviewer`
+* `\curreviewer`
 
 This command prints the current reviewer name as 'Reviewer \<num\>'
 
