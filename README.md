@@ -1,6 +1,6 @@
-## response-letter-template
+## responseletter.sty
 
-This template uses a bunch of new commands to help the writing of a response letter to journal reviews.
+This LaTeX package adds a bunch of new commands to help the writing of a response letter to journal reviews.
 
 <p align="center">
   <img src="template.png" />
@@ -9,7 +9,7 @@ This template uses a bunch of new commands to help the writing of a response let
 
 ### Usage
 
-To use the new commands:
+To use the package:
 
 1. Put the `responseletter.sty` file into the root folder of a latex project.
 2. Add `\usepackage{responseletter}` in the preamble of the main file of the project.
