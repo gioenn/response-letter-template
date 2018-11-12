@@ -46,40 +46,40 @@ The example letter depicted in the picture at the beginning of this document is 
 
 \begin{document}
 
-	\title{Response to the Comments of the Reviewers}
-	\author{Author 1, Author 2 and Author 3}
+\title{Response to the Comments of the Reviewers}
+\author{Author 1, Author 2 and Author 3}
 
-	\maketitle
+\maketitle
 
-	\noindent The comments of the reviewers have been very useful....
+\noindent The comments of the reviewers have been very useful....
 
-	\reviewer{
-		% Review prologue
-		This paper presents a system for...
-	}{
-		% Thank the reviewer for her/his feedbacks
-	}
+\reviewer{
+	% Review prologue
+	This paper presents a system for...
+}{
+	% Thank the reviewer for her/his feedbacks
+}
 
-	% Tackle each comment with an answer
+% Tackle each comment with an answer
 
-	\comment{
-		% Reviewer comment
-		The biggest concern I have is...
-	}{
-		% Your answer
-	}
+\comment{
+	% Reviewer comment
+	The biggest concern I have is...
+}{
+	% Your answer
+}
 
-	\comment{Another concern that I have is... }{}
+\comment{Another concern that I have is... }{}
 
-	% other comments of Reviewer 1
+% other comments of Reviewer 1
 
-	\reviewer{The authors present an extension to... }{}
+\reviewer{The authors present an extension to... }{}
 
-	\comment{The biggest concern I have is...}{}
+\comment{The biggest concern I have is...}{}
 
-	\comment{Another concern that I have is...}{}
+\comment{Another concern that I have is...}{}
 
-	% other comments and reviewers
+% other comments and reviewers
 
 \end{document}
 
