@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="template.png" width=600px/>
+<img src="template.png" width=600px/>
 </p>
 
 This LaTeX package adds a bunch of new commands to help the writing of a response letter to journal reviews.
@@ -54,19 +54,19 @@ The example letter depicted in the picture at the beginning of this document is 
 \noindent The comments of the reviewers have been very useful....
 
 \reviewer{
-	% Review prologue
-	This paper presents a system for...
+% Review prologue
+This paper presents a system for...
 }{
-	% Thank the reviewer for her/his feedbacks
+% Thank the reviewer for her/his feedbacks
 }
 
 % Tackle each comment with an answer
 
 \comment{
-	% Reviewer comment
-	The biggest concern I have is...
+% Reviewer comment
+The biggest concern I have is...
 }{
-	% Your answer
+% Your answer
 }
 
 \comment{Another concern that I have is... }{}
